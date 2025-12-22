@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: SureshTesting
+  description: A sample Test Service with SureshTesting
+  annotations:
+    github.com/project-slug: iamsureshgithub/SureshTesting
+spec:
+  type: service
+  lifecycle: experimental
+  owner: development
